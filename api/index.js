@@ -1,11 +1,11 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import dotenv from 'dotenv';
-import userRoutes from '../../api/routes/user.route.js';
-import generateblogRoute from '../../api/routes/generateblog.js'; // should be a function that accepts openai
-import authRoutes from '../../api/routes/auth.route.js';
-import postRoutes from '../../api/routes/post.route.js';
-import commentRoutes from '../../api/routes/comment.route.js';
+import userRoutes from './routes/user.route.js';
+import generateblogRoute from './routes/generateblog.js'; // should be a function that accepts openai
+import authRoutes from './routes/auth.route.js';
+import postRoutes from './routes/post.route.js';
+import commentRoutes from './routes/comment.route.js';
 import cookieParser from 'cookie-parser';
 import path from 'path';
 import cors from 'cors';
