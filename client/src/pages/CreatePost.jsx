@@ -14,7 +14,7 @@ import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
 import { useNavigate } from 'react-router-dom';
 import { SiOpenai } from 'react-icons/si';
-import axios from 'axios';
+
 
 export default function CreatePost() {
   // ... existing useStates
